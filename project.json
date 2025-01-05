@@ -1,0 +1,70 @@
+{
+  "name": "PiFo",
+  "projectId": "0d718955-9e09-4a47-8f16-30447de22bbc",
+  "description": "Blank Process",
+  "main": "Flowchart.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[2.13.2-preview]",
+    "UiPath.Excel.Activities": "[2.25.0-preview]",
+    "UiPath.IntegrationService.Activities": "[1.11.0]",
+    "UiPath.PDF.Activities": "[3.21.0-preview]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.UIAutomation.Activities": "[24.10.8]",
+    "UiPath.Word.Activities": "1.20.3"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.157.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "cd0fa46c-8d69-49bf-9c3c-e46b7a58427d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Flowchart.xaml",
+      "uniqueId": "606beb48-5fb8-4be4-98fc-424c2d2c8d77",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
